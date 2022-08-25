@@ -69,7 +69,6 @@ const Create = () => {
             ...datos,
             [e.target.name] : e.target.value
         }))
-        console.log(datos)
     }
 
     const handelOnChangeGeneros = (e)=>{

@@ -87,7 +87,6 @@ export const rootReducer = (state = initialState, action) =>{
             const apiVideogames = allVideogames.filter(e => e.id < 700001)
             const dbVideogames = allVideogames.filter( e => e.id.length > 25)
             const filtrados = action.payload === 'existente' ? apiVideogames : action.payload === 'creada' ? dbVideogames[0] ? dbVideogames: alert('no has creado ningun video juego ') ? allVideogames : dbVideogames : allVideogames
-            console.log(allVideogames)
             return {
                 ...state,
                 videogames: filtrados
