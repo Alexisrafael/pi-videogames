@@ -1,0 +1,39 @@
+.pag{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pag div{
+    width: 40px;
+    height: 25px;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    align-items: center;
+    align-content: center;
+}
+
+.pag div button{
+    font-family: 'TANKTYPE';
+    background-image: url('https://www.xtrafondos.com/wallpapers/resized/tunel-pentagono-con-luces-de-neon-3480.jpg?s=large');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
+.pag div button:hover{
+    background-image: url('https://i1.wp.com/crb.work/wp-content/uploads/2018/09/gifformas-5.gif?w=1170');
+}
+
+.pag h2{
+    color: rgb(150, 150, 150);
+    font-family: 'TANKTYPE';
+    text-shadow: 0px 1px 10px rgba(0, 47, 255, 0.712), 1px 2px 11px rgba(0, 0, 0, 0.2), 2px 3px 12px rgba(0, 47, 255, 0.712),3px 4px 13px rgba(0, 0, 0, 0.2),4px 5px 14px rgba(0, 0, 0, 0.2);
+}
